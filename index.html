@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Prologue by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>Tanmay Agarwal</title>
@@ -12,6 +7,7 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<!-- <scirpt type="text/javascript" src="js/main.js"></scirpt> -->
 		<script src="js/jquery.min.js"></script>
 		<script src="js/jquery.scrolly.min.js"></script>
 		<script src="js/jquery.scrollzer.min.js"></script>
@@ -19,6 +15,8 @@
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -27,6 +25,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<script type="text/javascript" src="js/main.js"></script>
 	</head>
 	<body>
 
@@ -38,9 +37,9 @@
 					<!-- Logo -->
 						<div id="logo">
 							<p id="intro">Tanmay Agarwal</p>
-							<p>Researcher</p>
-							<p>Samsung Research Institute</p>
-							<p>Bangalore, India</p>
+							<p class="modified-p">Researcher</p>
+							<p class="modified-p">Samsung Research Institute</p>
+							<p class="modified-p">Bangalore, India</p>
 						</div>
 
 					<!-- Nav -->
@@ -191,7 +190,45 @@
 								<h2>Projects</h2>
 							</header>
 
+							<button class="custom-accordion">Automatic Story Summarizer (Supervisor - Prof. Vandana Agarwal, CSIS Department, BITS Pilani)</button>
+							<div class="custom-panel">
+								<div class="custom-p">An application was developed which compares the summary generated programmatically using three different approaches namely extraction based on weighting, extraction based on user query and understanding based information extraction. The data input were some popular short stories and we used NLTK and MontyLingua toolkits in Python for natural language processing.</div>
+							</div>
 							
+							<br><br>
+							
+							<button class="custom-accordion">Gesture Recognition based controlled mobile robot (Lab project under Dr. Surekha Bhanot, EEE Department, BITS Pilani)</button>
+							<div class="custom-panel">
+								<div class="custom-p">Explored different algorithms like the conventional background subtraction, skin colour based Kovac and HSV models, and sophisticated machine learning approaches using Haar Cascade which is scale, background and light independent. Implemented these algorithms in OpenCV to demonstrate how gestures can be used to control a mobile robot.</div>
+							</div>
+
+							<br><br>
+							
+							<button class="custom-accordion">Unaided Braille Encryption (Project presentation through BITS-ACM in Apogee, 2015)</button>
+							<div class="custom-panel">
+								<div class="custom-p">Developed a prototype of an e-reader for the blind, which processes any form of textual documents using Optical Character Recognition and displays the corresponding Braille text on a two-dimensional array of Braille cells dynamically. The prototype maps 6 characters at a time on a 2 x 3 array.</div>
+							</div>
+
+							<br><br>
+							
+							<button class="custom-accordion">ANN Based Pattern Recognition(Supervisor - Dr. Navneet Goyal, CSIS Department, BITS Pilani)</button>
+							<div class="custom-panel">
+								<div class="custom-p">In this project, an artificial neural network model was trained to build a binary classifier based on patterns within the data for detection of heart disease. This was repeated for diabetes type II and nephritis diseases. The data was extracted from UCI Machine Learning Repository and the models proved an accuracy of above 90%.</div>
+							</div>
+
+							<br><br>
+							
+							<button class="custom-accordion">Predicting daily incoming solar energy based on the weather forecast data (Supervisor - Dr. Navneet Goyal, CSIS Department, BITS Pilani)</button>
+							<div class="custom-panel">
+								<div class="custom-p">A prediction model was generated as a part of the Machine Learning course estimating the harnessable solar energy from incoming solar power by comparing different techniques, such as linear least squares and support vector machines using kernel functions. The data consisted of 7 different data parameters which were used to train the model.</div>
+							</div>
+
+							<br><br>
+							
+							<button class="custom-accordion">Autonomous Bot using embedded vision (Lab project under Dr Ing. Jagdish Lal Raheja, CEERI Pilani)</button>
+							<div class="custom-panel">
+								<div class="custom-p">Designed an autonomous mobile bot used for navigation in indoor environments using RGBD Microsoft Kinect sensor. The bot has the capability to map its surroundings using the Simultaneous Localization and Mapping (SLAM) technique.</div>
+							</div>
 
 						</div>
 					</section>

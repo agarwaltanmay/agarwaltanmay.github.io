@@ -12,6 +12,10 @@
 /* Basic                                                                         */
 /*********************************************************************************/
 
+* {
+	font-family: 'Source Sans Pro', sans-serif !important;
+}
+
 	body
 	{
 		background: #fff;
@@ -36,6 +40,11 @@
 	#self-p {
 		text-align: justify;
 		font-size: 18px;
+		line-height: 26px;
+	}
+
+	.modified-p {
+		font-size: 14px !important;
 		line-height: 26px;
 	}
 
@@ -77,7 +86,7 @@
 	}
 
 	td {
-		padding-top: 20px;
+		padding-top: 30px !important;
 		padding-bottom: 20px;
 	}
 
@@ -93,6 +102,51 @@
 		padding-left: 40px;	
 		border-left: 1px solid darkgray;
 		width: 70%;
+	}
+
+	button.custom-accordion {
+	    background-color: #eee;
+	    color: #444;
+	    cursor: pointer;
+	    padding: 18px;
+	    width: 100%;
+	    border: none;
+	    text-align: left;
+	    outline: none;
+	    font-size: 18px;
+	    font-weight: bold;
+	    transition: 0.4s !important;
+	}
+
+	button.custom-accordion.active, button.custom-accordion:hover {
+	    background-color: #ccc;
+	}
+
+	button.custom-accordion:after {
+	    content: '\002B';
+	    color: #777;
+	    font-weight: bold;
+	    float: right;
+	    margin-left: 5px;
+	}
+
+	button.custom-accordion.active:after {
+	    content: "\2212";
+	}
+
+	div.custom-panel {
+		text-align: justify;
+	    display: none;
+	    background-color: white;
+	    max-height: fit-content;
+	    transition: 0.2s ease-out !important;
+	    background-color: white !important;
+	    color: black;
+	}
+
+	.custom-p {
+		font-size: 18px;
+		padding: 20px;
 	}
 
 	body.is-loading *
@@ -140,6 +194,8 @@
 		{
 			font-size: 2em;
 			letter-spacing: -1px;
+			font-weight: bold;
+			line-height: 60px;
 		}
 		
 			h2.alt
@@ -615,7 +671,7 @@
 		width: 375px;
 		height: 100%;
 		color: #fff;
-		background: #222222;
+		background-color: #222629;
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0,0,0,0.1);
 		text-align: right;
 	}
@@ -638,7 +694,7 @@
 
 		#header .icons
 		{
-			font-size: 0.8em;
+			font-size: 15px;
 			margin: 0 0 1em 0;
 			text-align: center;
 		}
@@ -665,6 +721,8 @@
 		margin: 1.75em 1.5em 1.5em 1.5em;
 		min-height: 48px;
 		cursor: default;
+		padding-top: 5px;
+		padding-bottom: 20px;
 	}
 	
 		#logo h1
@@ -703,6 +761,7 @@
 		
 			#nav ul li
 			{
+				font-size: 20px;
 			}
 			
 				#nav ul li a
@@ -734,7 +793,7 @@
 							color: #41484c;
 							text-align: center;
 							width: 1.25em;
-							line-height: 1.75em;
+							line-height: 1.25em;
 						}
 
 					#nav ul li a.active
@@ -845,7 +904,7 @@
 		
 			#main > section.one
 			{
-				/*background-color: #666;*/
+				/*background-color: grey;*/
 				background-color: #666;
 			}
 
@@ -856,7 +915,7 @@
 		
 			#main > section.three
 			{
-				/*background-color: #666;*/
+				/*background-color: grey;*/
 				background-color: #666;
 			}
 
