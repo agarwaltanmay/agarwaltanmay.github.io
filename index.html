@@ -110,10 +110,13 @@
 										<span class="bold-text right-floating-text">Bangalore, India</span><br>
 										<span class="small-italics-text">Advanced Technology Lab - Multimedia Division</span><br><br>
 										<span class="bullet-point">
-											Developed a model to predict a word corresponding to a swipe gesture input in the Android keyboard. It is based on a novel geometric algorithm which determines key features in it to determine candidate word predictions. 
+											Developed a novel geometric algorithm for a virtual keyboard to predict a word corresponding to a swipe gesture input on matching a sequence of points to the potential candidate word path. 
 										</span>
 										<span class="bullet-point">
-											Implemented a sequence to sequence (CTC) model based on Recurrent Neural Networks which trains input gesture sequences and outputs matching word sequences.
+											Designed neural architecture that predicts the probable suggestions for the swipe gesture input by classifying it based on its shape.
+										</span>
+										<span class="bullet-point">
+											Implemented a real-time word completion framework for swipe gesture input by modeling a uni-directional GRU-RNN architecture with Connectionist Temporal Classification (CTC) as its loss function. Proposed framework resolves word using a weighted FST that achieves 90% accuracy in top-5 predictions and an average swipe saving time of around 0.65s.
 										</span>
 									</td>
 								</tr>
@@ -129,10 +132,10 @@
 										<span class="bold-text right-floating-text">Bangalore, India</span><br>
 										<span class="small-italics-text">Risk & Finance Technology Division</span><br><br>
 										<span class="bullet-point">
-											Developed an Apache Spark application which processed a big data of financial records and performed complex computations on it. 
+											Developed a distributed computing application using Apache Spark that performs millions of computations on financial risk-data in real-time. Achieved optimal resource utilization by equally distributing the load amongst the compute hosts. 
 										</span>
 										<span class="bullet-point">
-											The goal was to achieve efficient resource utilization by equally distributing the load amongst the several different compute hosts.
+											Implemented a multi-variate classifier to classify risk-type using Spark MLlib and Spark core libraries.
 										</span>
 									</td>
 								</tr>
@@ -148,10 +151,29 @@
 										<span class="bold-text right-floating-text">Bonn, Germany</span><br>
 										<span class="small-italics-text">Autonomous Intelligent Systems Group</span><br><br>
 										<span class="bullet-point">
-											Worked in the Humanoid Soccer team with the aim to participate in Teensize League at RoboCup 2015 held in Hefei, China. 
+											Collaborated with the Humanoid Soccer team to develop new vision algorithms for real-time detection of a soccer ball and goal posts. Performed exhaustive literature review to understand state-of-the-art methods for object detection. 
 										</span>
 										<span class="bullet-point">
-											Developed new algorithms for detecting soccer ball and goal posts using machine learning, and modified the existing vision software to cope with new conditions.
+											Successfully implemented Histogram of Gradients (HOG) feature-based cascade classifier and augmented it with shape, histogram matching to achieve over 90% detection accuracy. Deployed these algorithms on a robot for RoboCup 2015 competition.
+										</span>
+									</td>
+								</tr>
+
+								<tr>
+									<td class="right-aligned-text">
+										<span class="bold-text">Aug 2014 – Dec 2014</span>
+										<br>
+										<span class="small-italics-text">Visiting Researcher (Part-time)</span>
+									</td>
+									<td class="left-aligned-text">
+										<span class="bold-text left-floating-text">CSIR - Central Electronics Engineering Research Institute</span>
+										<span class="bold-text right-floating-text">Pilani, India</span><br>
+										<span class="small-italics-text">Control & Automation Group</span><br><br>
+										<span class="bullet-point">
+											Designed a fully autonomous mobile robot for indoor navigation using Microsoft Kinect sensor. 
+										</span>
+										<span class="bullet-point">
+											Developed algorithms such as vision-based obstacle avoidance, visual odometry to position and orient the robot with respect to the environmental SURF features and EKF SLAM to map its surroundings.
 										</span>
 									</td>
 								</tr>
@@ -167,10 +189,7 @@
 										<span class="bold-text right-floating-text">Mumbai, India</span><br>
 										<span class="small-italics-text">Electronics Division</span><br><br>
 										<span class="bullet-point">
-											Worked on designing a gas leakage alarm system using customized sensors and fabricated the underlying electronics after verifying it in CAD tools. 
-										</span>
-										<span class="bullet-point">
-											Developed an LCD interface for this system to monitor the concentration of the gas is within permissible limits.
+											Worked on designing a gas leakage alarm system using customized sensors and fabricated the underlying electronics after verifying it in CAD tools. Also interfaced it with an LCD to monitor the concentration of the gas. 
 										</span>
 									</td>
 								</tr>
@@ -189,46 +208,46 @@
 							<header>
 								<h2>Projects</h2>
 							</header>
+							
+							<button class="custom-accordion">Gesture Recognition controlled mobile robots (Lab project under Dr. Surekha Bhanot, EEE Department, BITS Pilani)</button>
+							<div class="custom-panel">
+								<div class="custom-p">Implemented different vision based gesture recognition algorithms like the conventional background subtraction method, appearance based Kovac and HSV models, and other sophisticated ML approaches like the Haar cascade classifier in OpenCV. Designed few hand gestures and demonstrated how gesture recognition can be used to control mobile robots.</div>
+							</div>
+
+							<br><br>
 
 							<button class="custom-accordion">Automatic Story Summarizer (Supervisor - Prof. Vandana Agarwal, CSIS Department, BITS Pilani)</button>
 							<div class="custom-panel">
-								<div class="custom-p">An application was developed which compares the summary generated programmatically using three different approaches namely extraction based on weighting, extraction based on user query and understanding based information extraction. The data input were some popular short stories and we used NLTK and MontyLingua toolkits in Python for natural language processing.</div>
+								<div class="custom-p">Developed an application that summarizes short stories using different information and text extraction methods. Compared these results and concluded that an ensemble of term-frequency and understanding based generation produced best automated summaries.</div>
 							</div>
-							
+
 							<br><br>
 							
-							<button class="custom-accordion">Gesture Recognition based controlled mobile robot (Lab project under Dr. Surekha Bhanot, EEE Department, BITS Pilani)</button>
+							<button class="custom-accordion">Binary classifiers for Medical Testing (Supervisor - Dr. Navneet Goyal, CSIS Department, BITS Pilani)</button>
 							<div class="custom-panel">
-								<div class="custom-p">Explored different algorithms like the conventional background subtraction, skin colour based Kovac and HSV models, and sophisticated machine learning approaches using Haar Cascade which is scale, background and light independent. Implemented these algorithms in OpenCV to demonstrate how gestures can be used to control a mobile robot.</div>
+								<div class="custom-p">Analyzed different binary classifiers and experimentally validated that artificial neural network provides best results for detection of heart and nephritis diseases. Also concluded that a decision tree works best for detection of diabetes type II. These models produced accuracies over 90% and the data for this project was extracted from UCI Machine Learning Repository.</div>
+							</div>
+
+							<br><br>
+							
+							<button class="custom-accordion">Predicting harnessable solar energy using weather data (Supervisor - Dr. Navneet Goyal, CSIS Department, BITS Pilani)</button>
+							<div class="custom-panel">
+								<div class="custom-p">Developed a multi-variate regression model to estimate the harnessable solar energy after reducing the dimensionality of the weather data using Principal Component Analysis (PCA). Also explored Support Vector Machine with kernel functions to fit a regression model. This project was inspired from AMS 2013-14 Solar Energy Prediction Contest on Kaggle.</div>
 							</div>
 
 							<br><br>
 							
 							<button class="custom-accordion">Unaided Braille Encryption (Project presentation through BITS-ACM in Apogee, 2015)</button>
 							<div class="custom-panel">
-								<div class="custom-p">Developed a prototype of an e-reader for the blind, which processes any form of textual documents using Optical Character Recognition and displays the corresponding Braille text on a two-dimensional array of Braille cells dynamically. The prototype maps 6 characters at a time on a 2 x 3 array.</div>
+								<div class="custom-p">Developed a prototype of an e-reader for blind people, that processes any form of textual documents using Optical Character Recognition and dynamically displays the corresponding Braille text on a two-dimensional array of Braille cells.</div>
 							</div>
 
-							<br><br>
-							
-							<button class="custom-accordion">ANN Based Pattern Recognition(Supervisor - Dr. Navneet Goyal, CSIS Department, BITS Pilani)</button>
-							<div class="custom-panel">
-								<div class="custom-p">In this project, an artificial neural network model was trained to build a binary classifier based on patterns within the data for detection of heart disease. This was repeated for diabetes type II and nephritis diseases. The data was extracted from UCI Machine Learning Repository and the models proved an accuracy of above 90%.</div>
-							</div>
-
-							<br><br>
-							
-							<button class="custom-accordion">Predicting daily incoming solar energy based on the weather forecast data (Supervisor - Dr. Navneet Goyal, CSIS Department, BITS Pilani)</button>
-							<div class="custom-panel">
-								<div class="custom-p">A prediction model was generated as a part of the Machine Learning course estimating the harnessable solar energy from incoming solar power by comparing different techniques, such as linear least squares and support vector machines using kernel functions. The data consisted of 7 different data parameters which were used to train the model.</div>
-							</div>
-
-							<br><br>
+			<!-- 				<br><br>
 							
 							<button class="custom-accordion">Autonomous Bot using embedded vision (Lab project under Dr Ing. Jagdish Lal Raheja, CEERI Pilani)</button>
 							<div class="custom-panel">
 								<div class="custom-p">Designed an autonomous mobile bot used for navigation in indoor environments using RGBD Microsoft Kinect sensor. The bot has the capability to map its surroundings using the Simultaneous Localization and Mapping (SLAM) technique.</div>
-							</div>
+							</div> -->
 
 						</div>
 					</section>
