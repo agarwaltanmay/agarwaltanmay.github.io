@@ -28,7 +28,6 @@
 		<script type="text/javascript" src="js/main.js"></script>
 	</head>
 	<body>
-
 		<!-- Header -->
 			<div id="header" class="skel-layers-fixed">
 
@@ -36,9 +35,9 @@
 
 					<!-- Logo -->
 						<div id="logo">
-							<p id="intro">Tanmay Agarwal</p>
-							<p class="modified-p">Researcher</p>
-							<p class="modified-p">Robotics Institute, Carnegie Mellon University</p>
+							<p id="intro"><a href="https://agarwaltanmay.github.io/" style="text-decoration: none">Tanmay Agarwal</a></p>
+							<p class="modified-p">Graduate Reserach Assistant</p>
+							<p class="modified-p"><a href="https://www.ri.cmu.edu/">Robotics Institute</a>, <a href="https://www.cmu.edu/">Carnegie Mellon University</a></p>
 							<p class="modified-p">Pittsburgh, PA</p>
 						</div>
 
@@ -49,7 +48,7 @@
 								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
 								<li><a href="#work-ex" id="work-ex-link" class="skel-layers-ignoreHref"><span class="icon fa-list-ul">Work Experience</span></a></li>
 								<li><a href="#projects" id="projects-link" class="skel-layers-ignoreHref"><span class="icon fa-cubes">Projects</span></a></li>
-								<li><a href="https://drive.google.com/file/d/1dYbXaSNxK2-loPfX2aBlXGcQGn8fE1Vt/view?usp=sharing" id="cv-link" target="_blank" class="skel-layers"><span class="icon fa-download">CV</span></a></li>
+								<li><a href="https://drive.google.com/file/d/1abOsdI2XC2lNcEgCn6nQ8bzeMEZ-lJnJ/view?usp=sharing" id="cv-link" target="_blank" class="skel-layers"><span class="icon fa-download">Resume</span></a></li>
 								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-address-card">Contact</span></a></li>
 							</ul>
 						</nav>
@@ -79,9 +78,9 @@
 										<h2>About Me</h2>
 									</header>
 
-									<div id="self-image"><img src="images/self.jpg" height="200px" width="200px"></div>
+									<div id="self-image"><img src="images/new_self.jpg" height="300px" width="200px"></div>
 									<p id="self-p">
-										Hey! I am Tanmay, and I am currently a research graduate student at the <a href="https://www.ri.cmu.edu">Robotics Institute</a>, <a href="https://www.cmu.edu">Carnegie Mellon Univeristy</a>. I work with <a href="https://www.cs.cmu.edu/~schneide/">Prof. Jeff Schneider</a> as a member of the <a href="https://www.autonlab.org">Auton Lab</a>. My research includes learning end-to-end control sytems for self-driving cars using reinforcement learning algorithms.  
+										Hey! I am Tanmay, and I am currently a graduate research assistant at the <a href="https://www.ri.cmu.edu">Robotics Institute</a>, <a href="https://www.cmu.edu">Carnegie Mellon Univeristy</a>. I work with <a href="https://www.cs.cmu.edu/~schneide/">Prof. Jeff Schneider</a> as a member of the <a href="https://www.autonlab.org">Auton Lab</a>. My research includes learning end-to-end control sytems for self-driving cars using reinforcement learning algorithms.  
 										<br><br>
 										Previously, I have worked with <a href="https://research.samsung.com/sri-b">Samsung Research Institute Bangalore</a> as a researcher, in the Multimedia Division of the Advanced Technologies Lab. I worked on solving an interesting problem of swipe gesture recognition in the Samsung Keyboard. My previous work has been in the area of cognitive robotics, machine learning, computer vision and distributed computing.
 										<br><br>
@@ -105,22 +104,44 @@
 							<table>
 								<tr>
 									<td class="right-aligned-text">
-										<span class="bold-text">August 2016 - July 2018</span>
+										<span class="bold-text">November 2018 - Present</span>
 										<br>
-										<span class="small-italics-text">Researcher</span>
+										<span class="small-italics-text">Graduate Research Assistant</span>
 									</td>
 									<td class="left-aligned-text">
-										<span class="bold-text left-floating-text">Samsung Research Institute</span>
+										<span class="bold-text left-floating-text"><a href="https://www.ri.cmu.edu/">Robotics Institute, </a><a href=https://www.cmu.edu/">Carnegie Mellon University</a></span>
+										<span class="bold-text right-floating-text">Pittsburgh, PA</span><br>
+										<span class="small-italics-text"><a href="https://www.autonlab.org/">Auton Lab</a></span><br><br>
+										<span class="bullet-point">
+											Designed end-to-end control agents for autonomous cars in CARLA simulator learned using sensor and measurement data from
+											the environment.
+										</span>
+										<span class="bullet-point">
+											Implemented popular RL algorithms like A2C, DDPG, PPO and TRPO to learn efficient driving policies and compared these
+											algorithms to understand their sample complexity.
+										</span>
+									</td>
+								</tr>
+
+								<tr>
+									<td class="right-aligned-text">
+										<span class="bold-text">August 2016 - July 2018</span>
+										<br>
+										<span class="small-italics-text">Senior Software Engineer (Research)</span>
+									</td>
+									<td class="left-aligned-text">
+										<span class="bold-text left-floating-text"><a href="https://research.samsung.com/sri-b">Samsung Research Institute</a></span>
 										<span class="bold-text right-floating-text">Bangalore, India</span><br>
 										<span class="small-italics-text">Advanced Technology Lab - Multimedia Division</span><br><br>
 										<span class="bullet-point">
-											Developed a novel geometric algorithm for a virtual keyboard to predict a word corresponding to a swipe gesture input on matching a sequence of points to the potential candidate word path. 
+											Developed a novel geometric algorithm for virtual keyboard that predicts a word corresponding to a swipe gesture input
+											by matching a sequence of points to the candidate word path.
 										</span>
 										<span class="bullet-point">
-											Designed neural architecture that predicts the probable suggestions for the swipe gesture input by classifying it based on its shape.
-										</span>
-										<span class="bullet-point">
-											Implemented a real-time word completion framework for swipe gesture input by modeling a uni-directional GRU-RNN architecture with Connectionist Temporal Classification (CTC) as its loss function. Proposed framework resolves word using a weighted FST that achieves 90% accuracy in top-5 predictions and an average swipe saving time of around 0.65s.
+											Designed a neural architecture that predicts probable words for the swipe gesture input in real-time by modeling a
+											uni-directional GRU-RNN architecture with Connectionist Temporal Classification (CTC) as its loss function. Proposed
+											framework resolves word using a weighted FST that achieves 90% accuracy in top-5 predictions and an average swipe
+											saving time of around 0.65s.
 										</span>
 									</td>
 								</tr>
@@ -132,11 +153,12 @@
 										<span class="small-italics-text">Software Developer Intern</span>
 									</td>
 									<td class="left-aligned-text">
-										<span class="bold-text left-floating-text">JP Morgan Chase & Co.</span>
+										<span class="bold-text left-floating-text"><a href="https://www.jpmorgan.com/country/IN/EN/jpmorgan">JP Morgan Chase & Co.</a></span>
 										<span class="bold-text right-floating-text">Bangalore, India</span><br>
 										<span class="small-italics-text">Risk & Finance Technology Division</span><br><br>
 										<span class="bullet-point">
-											Developed a distributed computing application using Apache Spark that performs millions of computations on financial risk-data in real-time. Achieved optimal resource utilization by equally distributing the load amongst the compute hosts. 
+											Developed a distributed computing application using Apache Spark that performs millions of computations on financial
+											data in real-time.
 										</span>
 										<span class="bullet-point">
 											Implemented a multi-variate classifier to classify risk-type using Spark MLlib and Spark core libraries.
@@ -148,17 +170,20 @@
 									<td class="right-aligned-text">
 										<span class="bold-text">May 2015 – July 2015</span>
 										<br>
-										<span class="small-italics-text">Summer Research Intern</span>
+										<span class="small-italics-text">Visiting Research Scholar</span>
 									</td>
 									<td class="left-aligned-text">
-										<span class="bold-text left-floating-text">University of Bonn, Institute of Computer Science VI</span>
+										<span class="bold-text left-floating-text"><a href="https://www.uni-bonn.de/the-university">University of Bonn, </a><a href="http://vi.cs.uni-bonn.de/en">Institute of Computer Science VI</a></span>
 										<span class="bold-text right-floating-text">Bonn, Germany</span><br>
-										<span class="small-italics-text">Autonomous Intelligent Systems Group</span><br><br>
+										<span class="small-italics-text"><a href="http://www.ais.uni-bonn.de/">Autonomous Intelligent Systems Group</a></span><br><br>
 										<span class="bullet-point">
-											Collaborated with the Humanoid Soccer team to develop new vision algorithms for real-time detection of a soccer ball and goal posts. Performed exhaustive literature review to understand state-of-the-art methods for object detection. 
+											Developed vision algorithms for a humanoid soccer robot to detect soccer ball and goal posts in real-time. Implemented
+											Histogram of Gradients (HOG) feature-based cascade classifier and augmented it with shape, histogram matching to achieve
+											over 90% detection accuracy.
 										</span>
 										<span class="bullet-point">
-											Successfully implemented Histogram of Gradients (HOG) feature-based cascade classifier and augmented it with shape, histogram matching to achieve over 90% detection accuracy. Deployed these algorithms on a robot for RoboCup 2015 competition.
+											Deployed these algorithms on a robot and awarded the RoboCup Design Award for the best Humanoid Robot Design at RoboCup
+											2015.
 										</span>
 									</td>
 								</tr>
@@ -167,17 +192,18 @@
 									<td class="right-aligned-text">
 										<span class="bold-text">Aug 2014 – Dec 2014</span>
 										<br>
-										<span class="small-italics-text">Visiting Researcher (Part-time)</span>
+										<span class="small-italics-text">Visiting Researcher</span>
 									</td>
 									<td class="left-aligned-text">
-										<span class="bold-text left-floating-text">CSIR - Central Electronics Engineering Research Institute</span>
+										<span class="bold-text left-floating-text"><a href="https://www.ceeri.res.in/">CSIR - Central Electronics Engineering Research Institute</a></span>
 										<span class="bold-text right-floating-text">Pilani, India</span><br>
-										<span class="small-italics-text">Control & Automation Group</span><br><br>
+										<span class="small-italics-text"><a href="https://www.ceeri.res.in/departments/cyber-physical-systems/control-and-automation/">Control & Automation Group</a></span><br><br>
 										<span class="bullet-point">
-											Designed a fully autonomous mobile robot for indoor navigation using Microsoft Kinect sensor. 
+											Designed a fully autonomous mobile robot for indoor navigation using Microsoft Kinect sensor.
 										</span>
 										<span class="bullet-point">
-											Developed algorithms such as vision-based obstacle avoidance, visual odometry to position and orient the robot with respect to the environmental SURF features and EKF SLAM to map its surroundings.
+											Developed algorithms such as vision-based obstacle avoidance, visual odometry to position and orient the robot with
+											respect to the environmental SURF features and EKF SLAM to map its surroundings.
 										</span>
 									</td>
 								</tr>
@@ -189,7 +215,7 @@
 										<span class="small-italics-text">Summer Intern</span>
 									</td>
 									<td class="left-aligned-text">
-										<span class="bold-text left-floating-text">Bhabha Atomic Research Centre (BARC)</span>
+										<span class="bold-text left-floating-text"><a href="http://www.barc.gov.in/">Bhabha Atomic Research Centre (BARC)</a></span>
 										<span class="bold-text right-floating-text">Mumbai, India</span><br>
 										<span class="small-italics-text">Electronics Division</span><br><br>
 										<span class="bullet-point">
@@ -210,10 +236,194 @@
 						<div class="container">
 
 							<header>
-								<h2>Projects</h2>
+								<h2>Research Projects</h2>
 							</header>
-							
-							<button class="custom-accordion">Gesture Recognition controlled mobile robots (Lab project under Dr. Surekha Bhanot, EEE Department, BITS Pilani)</button>
+
+							<table style="width:100%">
+								<tr>
+									<td class="float-td"><img src="images/neurips.jpg" class="float-img" /></td>
+									<td class="float-td">
+										<div class="float-title">Learning to Drive using Waypoints</div>
+										<div class="float-advisor"><i>NeurIPS 2019 Workshop on Machine Learning for Autonomous Driving, 2019</i>
+										<br>Advisor: <a href="https://www.cs.cmu.edu/~schneide/">Prof. Jeff Schneider</a>, <a href="https://www.ri.cmu.edu/">Robotics Institute, CMU</a></div>
+										<div class="float-refs">Links: [<a href="https://drive.google.com/file/d/1F93mHecRsWU4IAPEoZPwzrMVsJX6DEIN/view?usp=sharing">paper</a> / <a href="https://drive.google.com/file/d/1sj0CXkBnuNbR0CSyL2RHwbvf7D4McKL_/view?usp=sharing">poster</a> / <a href="https://www.talkrl.com/episodes/neurips-2019-deep-rl-workshop">media</a>]</div>
+										<div class="float-content">Traditional autonomous vehicle pipelines are highly modularized with different subsystems for localization, perception,
+										actor prediction, planning, and control. Though this approach provides ease of interpretation, its generalizability to
+										unseen environments is limited and hand-engineering of numerous parameters is required, especially in the prediction and
+										planning systems. Recently, Deep Reinforcement Learning (DRL) has been shown to learn complex strategic games and
+										perform challenging robotic tasks, which provides an appealing framework for learning to drive. In this paper, we
+										propose an architecture that learns directly from semantically segmented images along with waypoint features to drive
+										within CARLA simulator using the Proximal Policy Optimization (PPO) algorithm. We report significant improvement in
+										performance on the benchmark tasks of driving straight, one turn and navigation with and without dynamic actors.</div>
+									</td>
+								</tr>
+								<tr>
+									<td class="float-td"><img src="images/mmml.jpg" class="float-img" /></td>
+									<td class="float-td">
+										<div class="float-title">Argoverse: Multi-modal Multi-task 3D Object Detection</div>
+										<div class="float-advisor">Advisor: <a href="https://www.cs.cmu.edu/~morency/">Prof. Louis-Philippe Morency</a>, <a href="https://www.lti.cs.cmu.edu/">Language Technologies Institute, CMU</a></div>
+										<!-- <div class="float-refs">Links: [<a href="paper">paper</a> / <a href="poster">poster</a> / <a href="code">code]</a></div> -->
+										<div class="float-content">3D object detection is one of the most pivotal tasks in autonomous driving that governs major downstream tasks like
+										tracking, prediction, planning, and control, critical in urban environment driving. To ensure reliability and accuracy
+										of such system, we propose a novel multi-modal neural architecture that incorporates ideas such as dynamic voxelization,
+										multi-view fusion, a cross-modal coupled fusion between RGB and LiDAR, soft attention for geometric alignment, and
+										multi-task losses. We observe very promising results within only 8 epochs of training over <i>25%</i> of the total
+										data and hope to contribute a novel architecture with strong performance.</div>
+									</td>
+								</tr>
+								<tr>
+									<td class="float-td"><img src="images/jenga.jpg" class="float-img" /></td>
+									<td class="float-td">
+										<div class="float-title">Visual Learning for Jenga Tower Stability Prediction</div>
+										<div class="float-advisor">Advisor: <a href="http://www.cs.cmu.edu/~abhinavg/">Prof. Abhinav Gupta</a>, <a href="https://www.ri.cmu.edu/">Robotics Institute, CMU</a></div>
+										<div class="float-refs">Links: [<a href="https://drive.google.com/file/d/1JLtZN4aWtWXCsiIKxFkUUIOIxlhPYIuA/view?usp=sharing">report</a> / <a href="https://github.com/agarwaltanmay/16824-project-maskrcnn">code</a>]</div>
+										<div class="float-content">Despite advances in robotics and vision, there are simple tasks such as object manipulation which are intuitive for
+										humans but machines struggle with. Further, more complex manipulation tasks such as stacking or de-stacking of
+										structures require not only dexterous manipulation abilities but also the capability to learn and predict stability of
+										the stack being constructed. In this work, we explore if this capability can be developed for a robot through visual
+										learning and recognition.</div>
+									</td>
+								</tr>
+								<tr>
+									<td class="float-td"><img src="images/tweet.jpg" class="float-img" /></td>
+									<td class="float-td">
+										<div class="float-title">Semi-Supervised Stance Detection in tweets</div>
+										<div class="float-advisor">Advisor: <a href="https://www.cs.cmu.edu/~lwehbe/">Prof. Leila Wehbe</a>, <a href="https://www.ml.cmu.edu/">Machine Learning Department, CMU</a></div>
+										<div class="float-refs">Links: [<a href="https://drive.google.com/file/d/1Mqk6DypNrA4FKXuNimqNPjZaU1B0VTgk/view?usp=sharing">paper</a> / <a href="https://drive.google.com/open?id=1f6RtfFRSvfNrWGqmK_P3zFvnhq6QnvbT">poster</a> / <a href="https://github.com/agarwaltanmay/10701-project">code</a>]
+										</div>
+										<div class="float-content">Implemented a heuristic-based semi-supervised learning approach, LDA2Vec (Moody CoNLL 2016) for stance detection that
+										learns a coherent and informed embedding comparable to Para2Vec, concurrently bolstering interpretability of topics by
+										creating representations similar to those in Latent Dirichlet Allocation. We conclude that adding unlabelled data vastly improves the performance of classifiers by ~6% for LDA and ~20% for
+										Para2Vec. Overall Para2Vec seems to perform better than the Vanilla LDA. While we are able to obtain a similar quality
+										of topics with LDA2Vec as compared to LDA, the generated embeddings do not reflect the expected classification quality
+										compared to Para2Vec.</div>
+									</td>
+								</tr>
+								<tr>
+									<td class="float-td"><img src="images/non_convex.jpg" class="float-img" /></td>
+									<td class="float-td">
+										<div class="float-title">Non-Convex Optimization for Machine Learning</div>
+										<div class="float-advisor">Advisor: <a href="http://www.cs.cmu.edu/~me/">Prof. Michael Erdman</a>, <a
+												href="https://csd.cmu.edu/">Computer Science Department, CMU</a></div>
+										<div class="float-refs">Links: [<a href="https://drive.google.com/open?id=1n6-9f3ioHem8aK5mTQeVFYjsDSFP0Bor">report</a> / <a
+												href="https://drive.google.com/open?id=1TuZA2fkCKu65GknyEx-XxRhvLbbMoiAM">slides</a>]
+										</div>
+										<div class="float-content">Many real world machine learning problems require solving a non-convex optimization problem and this has been a niche
+										area of research due to non-convex problems being NP-hard to solve. In this project, we explore the space of non-convex
+										optimization for common machine-learning problems. We motivate the non-convex problem formulations of sparse recovery
+										and low-rank matrix recovery with its important real world applications and share the fundamental ideas about the two
+										main solution approaches: <i>convex relaxation</i> and <i>direct non-convex optimization</i>. We also explain some
+										of the popular non-convex optimization algorithms that have been shown to be very efficient in practice and yield
+										provably optimal solutions in polynomial time, such as projected gradient descent and its variants. We then discuss one
+										such application of sparse recovery in astronomy and share results from our implementation of start-of-the-art algorithm
+										(Högbom’s CLEAN) to denoise noisy spatial images.</div>
+									</td>
+								</tr>
+								<tr>
+									<td class="float-td"><img src="images/alpr.jpg" class="float-img" /></td>
+									<td class="float-td">
+										<div class="float-title">Automatic License Plate Recognition</div>
+										<div class="float-advisor">Advisor: <a href="http://www.cs.cmu.edu/~slucey/">Prof. Simon Lucey</a>, <a
+												href="https://www.ri.cmu.edu/">Robotics Institute, CMU</a></div>
+										<div class="float-refs">Links: [<a
+												href="https://drive.google.com/open?id=1d6GcXXEPRgJl9NDY0bJeabTnARIjg90P">slide</a>]
+										</div>
+										<div class="float-content">Built end-to-end system for Automatic License Plate Recognition using YOLO object
+											detector & deep character recognition models.</div>
+									</td>
+								</tr>
+								<tr>
+									<td class="float-td"><img src="images/slam.jpg" class="float-img" /></td>
+									<td class="float-td">
+										<div class="float-title">Autonomous bot using Embedded Vision</div>
+										<div class="float-advisor">Advisor: <a href="https://www.ceeri.res.in/profiles/j-l-raheja/">Dr. Jagdish Lal Raheja, CEERI, Pilani</a></div>
+										<div class="float-refs">Links: [<a href="https://drive.google.com/open?id=1lBcE9o2hVRe74hQbhCx6VgzQKOZdPerd">report</a> / <a href="https://drive.google.com/open?id=1z0HuM6jr6tlxUjgQZ-ptU0rRxpaGBEX6">slides</a> / <a href="https://github.com/agarwaltanmay/SLAM">code</a>]
+										</div>
+										<div class="float-content">An autonomous mobile robot is a machine that navigates in an unknown and unpredictable environment. These robots cannot
+										always be programmed to execute predefined actions because one does not know in advance what will be the outputs of the
+										sensors that control the motor movements. Thus these robots implement cognitive computing that processes the dynamic
+										streams of the present situations and based on which decides it movement. These robots finds enormous applications in
+										space exploration and aerial surveillance systems. Simple applications include domestic cleaning bots, autonomous quad-
+										copter and lawn mower. This report illustrates a few basic techniques and algorithms that will used to implement an
+										Autonomous Mobile Robot that also constructs a 3D map of the environment using the Self Localization and Mapping (SLAM)
+										technique. The bot will ultimately should traverse between any two given points and find out the shortest possible path,
+										avoiding obstacles on its way. The report also presents the autonomous obstacle avoider developed so far, an important
+										milestone towards achieving the final bot.</div>
+									</td>
+								</tr>
+								<tr>
+									<td class="float-td"><img src="images/gesture.jpg" class="float-img" /></td>
+									<td class="float-td">
+										<div class="float-title">Control of mobile robots using Gesture Recognition</div>
+										<div class="float-advisor">Advisor: <a href="https://www.bits-pilani.ac.in/Pilani/surekha/profile">Prof. Surekha Bhanot</a>, <a href="https://www.bits-pilani.ac.in/pilani/ElectricalElectronicsInstrumentation/Home">EEE Department, BITS Pilani</a></div>
+										<div class="float-refs">Links: [<a href="https://drive.google.com/open?id=1f-RhW5iJYDNBiLic5QI_WhSxjuofJu0v">report</a> / <a href="https://drive.google.com/open?id=1pX0okFz-C5_QErwvrCZTNRCIRhGb5OYH">slides</a> / <a href="https://github.com/agarwaltanmay/gesture-recognition">code</a>]
+										</div>
+										<div class="float-content">Compared performance of conventional vision based gesture recognition algorithms like background subtraction, appearance
+										based models with sophisticated ML approach like Haar cascade classifier in OpenCV.</div>
+									</td>
+								</tr>
+								<tr>
+									<td class="float-td"><img src="images/binary.jpg" class="float-img" /></td>
+									<td class="float-td">
+										<div class="float-title">Binary classifiers for Medical Testing</div>
+										<div class="float-advisor">Advisor: <a href="https://universe.bits-pilani.ac.in/pilani/goel/profile">Prof. Navneet Goyal</a>, <a href="https://www.bits-pilani.ac.in/pilani/computerscience/ComputerScience">CSIS
+											Department, BITS Pilani</a></div>
+										<!-- <div class="float-refs">Links: [<a href="paper">paper</a> / <a href="poster">poster</a> / <a href="code">code</a>] -->
+										</div>
+										<div class="float-content">In the modern world, every hospital is well equipped with monitoring and other data collection devices, and data is
+										gathered and shared in large information systems. Thus extracting meaning out of this data would prove to be very
+										beneficial especially where there is unavailability of proper diagnosis. Our project aims to develop a classification
+										model out of these data sets and generate a model that can be used to predict the most helpful diagnosis for a
+										particular set of symptoms. We use binary classifiers like multi-layer neural networks and decision trees to analyze and evaluate detection of heart and
+										nephritis diseases. Achieved accuracies over 90% on data procured from UCI Machine Learning Repository.</div>
+									</td>
+								</tr>
+								<tr>
+									<td class="float-td"><img src="images/solar.jpg" class="float-img" /></td>
+									<td class="float-td">
+										<div class="float-title">Predicting harnessable solar energy using weather data</div>
+										<div class="float-advisor">Advisor: <a href="https://universe.bits-pilani.ac.in/pilani/goel/profile">Prof.
+												Navneet Goyal</a>, <a href="https://www.bits-pilani.ac.in/pilani/computerscience/ComputerScience">CSIS
+												Department, BITS Pilani</a></div>
+										<div class="float-refs">Links: [<a href="https://github.com/agarwaltanmay/prediction">code</a>]
+										</div>
+										<div class="float-content">Implemented a multi-variate regression model to estimate harnessable solar energy
+											after reducing the dimensionality of
+											the data using PCA. Also experimented with kernel SVRs to fit a regression model.
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td class="float-td"><img src="images/text_summary.jpg" class="float-img" /></td>
+									<td class="float-td">
+										<div class="float-title">Automatic Story Summarizer</div>
+										<div class="float-advisor">Advisor: <a href="https://universe.bits-pilani.ac.in/pilani/vandana/profile">Prof.
+												Vandana Agarwal</a>, <a href="https://www.bits-pilani.ac.in/pilani/computerscience/ComputerScience">CSIS Department, BITS Pilani</a></div>
+										<div class="float-refs">Links: [<a href="https://drive.google.com/open?id=1FnzX1WNKuWr6IUptNULZDPZW6vfCPkXC">report</a> / <a href="https://github.com/agarwaltanmay/text-summarizer">code</a>]
+										</div>
+										<div class="float-content">Designed a story summarizer using different information and text extraction methods. Compared results which concluded
+										that an ensemble of term-frequency and understanding based generation method produced more coherent summaries.
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td class="float-td"><img src="images/braille.jpg" class="float-img" /></td>
+									<td class="float-td">
+										<div class="float-title">Unaided Braille Encryption</div>
+										<!-- <div class="float-advisor">Advisor: <a href="https://universe.bits-pilani.ac.in/pilani/goel/profile">Prof.
+												Navneet Goyal</a>, <a href="https://www.bits-pilani.ac.in/pilani/computerscience/ComputerScience">CSIS
+												Department</a></div> -->
+										<!-- <div class="float-refs">Links: [<a href="paper">paper</a> / <a href="poster">poster</a> / <a href="code">code</a>] -->
+										</div>
+										<div class="float-content">Developed a prototype of an e-reader for blind people, that processes any form of textual documents using Optical
+										Character Recognition and dynamically displays the corresponding Braille text on a two-dimensional array of Braille
+										cells.
+										</div>
+									</td>
+								</tr>
+								
+							</table>
+							<!-- <button class="custom-accordion">Gesture Recognition controlled mobile robots (Lab project under Dr. Surekha Bhanot, EEE Department, BITS Pilani)</button>
 							<div class="custom-panel">
 								<div class="custom-p">Implemented different vision based gesture recognition algorithms like the conventional background subtraction method, appearance based Kovac and HSV models, and other sophisticated ML approaches like the Haar cascade classifier in OpenCV. Designed few hand gestures and demonstrated how gesture recognition can be used to control mobile robots.</div>
 							</div>
@@ -246,7 +456,7 @@
 								<div class="custom-p">Developed a prototype of an e-reader for blind people, that processes any form of textual documents using Optical Character Recognition and dynamically displays the corresponding Braille text on a two-dimensional array of Braille cells.</div>
 							</div>
 
-			<!-- 				<br><br>
+			 				<br><br>
 							
 							<button class="custom-accordion">Autonomous Bot using embedded vision (Lab project under Dr Ing. Jagdish Lal Raheja, CEERI Pilani)</button>
 							<div class="custom-panel">
@@ -264,7 +474,7 @@
 								<h2>Contact</h2>
 							</header>
 							<span class="custom-contact">
-								To get in touch with me, please drop me a mail at: <a href="mailto:tanmay.agrawal@hotmail.com" target="_blank">tanmay.agrawal[at]hotmail[dot].com</a>
+								To get in touch with me, please drop me a mail at: <a href="mailto:tanmaya@cs.cmu.edu" target="_blank">tanmaya[at]cs[dot]cmu[dot]edu</a> / <a href="mailto:tanmay.agrawal@hotmail.com" target="_blank">tanmay[dot]agrawal[at]hotmail[dot]com</a>
 
 							</span>
 
